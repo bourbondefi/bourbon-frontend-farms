@@ -981,7 +981,7 @@
     {
       "data": {
         "stringId": 654,
-        "text": "Trade in for EGG"
+        "text": "Trade in for BRRL"
       }
     },
     {
@@ -1107,7 +1107,7 @@
     {
       "data": {
         "stringId": 696,
-        "text": "Stake LP tokens to earn EGG"
+        "text": "Stake LP tokens to earn BRRL"
       }
     },
     {
@@ -1149,13 +1149,13 @@
     {
       "data": {
         "stringId": 708,
-        "text": "The EGG Lottery"
+        "text": "The BRRL Lottery"
       }
     },
     {
       "data": {
         "stringId": 710,
-        "text": "Buy tickets with EGG"
+        "text": "Buy tickets with BRRL"
       }
     },
     {
@@ -1209,7 +1209,7 @@
     {
       "data": {
         "stringId": 10000,
-        "text": "Deposit Fee will be used to buyback EGG"
+        "text": "Deposit Fee will be used to buyback BRRL"
       }
     },
     {
@@ -1221,7 +1221,7 @@
     {
       "data": {
         "stringId": 10002,
-        "text": "Stake tokens to earn EGG"
+        "text": "Stake tokens to earn BRRL"
       }
     },
     {
