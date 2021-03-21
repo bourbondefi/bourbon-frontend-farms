@@ -348,23 +348,23 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
-  {
-    pid: 22,
-    risk: 3,
-    isTokenOnly: true,
-    lpSymbol: 'BSCX',
-    lpAddresses: {
-      97: '',
-      56: '0xa32a983a64ce21834221aa0ad1f1533907553136', // BSCX-BUSD LP
-    },
-    tokenSymbol: 'BSCX',
-    tokenAddresses: {
-      97: '',
-      56: '0x5ac52ee5b2a633895292ff6d8a89bb9190451587',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
+//  {
+//    pid: 22,
+//    risk: 3,
+//    isTokenOnly: true,
+//    lpSymbol: 'BSCX',
+//    lpAddresses: {
+//      97: '',
+//      56: '0xa32a983a64ce21834221aa0ad1f1533907553136', // BSCX-BUSD LP
+//    },
+//    tokenSymbol: 'BSCX',
+//    tokenAddresses: {
+//      97: '',
+//      56: '0x5ac52ee5b2a633895292ff6d8a89bb9190451587',
+//    },
+//    quoteTokenSymbol: QuoteToken.BUSD,
+//    quoteTokenAdresses: contracts.busd,
+//  },
 //  {
 //    pid: 23,
 //    risk: 3,
