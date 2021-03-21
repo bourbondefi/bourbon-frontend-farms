@@ -24,7 +24,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BRRL-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xb9120b8881f577db430966c6a8ddd0f993518295',
+      56: '0xb9120b8881F577dB430966C6A8DdD0f993518295',
     },
     tokenSymbol: 'BRRL',
     tokenAddresses: {
