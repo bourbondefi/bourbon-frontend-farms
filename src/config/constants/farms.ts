@@ -18,7 +18,7 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
-  {
+ /* {
     pid: 1,
     risk: 5,
     lpSymbol: 'BRRL-BNB LP',
@@ -381,7 +381,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
-  },
+  }, */
 ]
 
 export default farms
