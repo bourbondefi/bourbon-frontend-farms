@@ -185,7 +185,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BRRL',
     lpAddresses: {
       97: '',
-      56: '0x1b30e60130b364DDfC0267525d7D8039d795FB33', // EGG-BUSD LP
+      56: '0x1b30e60130b364DDfC0267525d7D8039d795FB33', // BRRL-BUSD LP
     },
     tokenSymbol: 'BRRL',
     tokenAddresses: {
