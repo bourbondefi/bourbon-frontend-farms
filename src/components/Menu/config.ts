@@ -53,14 +53,14 @@ const config: MenuEntry[] = [
         label: 'PancakeSwap',
         href: 'https://pancakeswap.info/token/0xcbe73dd7E8FC74011136b837a59205801c45e6A1',
       },
-      {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/goose-finance',
-      },
-      {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/goose-finance/',
-      },
+    //  {
+    //    label: 'CoinGecko',
+    //    href: '',
+    //  },
+    //  {
+    //    label: 'CoinMarketCap',
+    //    href: '',
+    //  },
       {
         label: 'AstroTools',
         href: 'https://app.astrotools.io/pancake-pair-explorer/0x1b30e60130b364DDfC0267525d7D8039d795FB33',
@@ -75,30 +75,30 @@ const config: MenuEntry[] = [
         label: 'Github',
         href: 'https://github.com/bourbondefi/',
       },
-      {
-        label: 'Docs',
-        href: 'https://bourbondefi.gitbook.io/goose-finance/',
-      },
-      {
-        label: 'Blog',
-        href: 'https://bourbonfinance.medium.com/',
-      },
+     // {
+     //   label: 'Docs',
+     //   href: '',
+     // },
+     // {
+     //   label: 'Blog',
+     //   href: '',
+     // },
     ],
   },
  // {
   //  label: 'Partnerships/IFO',
-//    icon: 'GooseIcon',
- //   href: 'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
+//    icon: '',
+ //   href: '',
 //  },
  // {
  //   label: 'Audit by Hacken',
  //   icon: 'AuditIcon',
- //   href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
+ //   href: '',
  // },
  // {
  //   label: 'Audit by CertiK',
  //   icon: 'AuditIcon',
-  //  href: 'https://certik.org/projects/goose-finance',
+  //  href: '',
 //  },
 ]
 
