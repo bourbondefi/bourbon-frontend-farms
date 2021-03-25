@@ -106,7 +106,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD',
     lpAddresses: {
       97: '',
-      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // BRRL-BUSD LP (BUSD-BUSD will ignore)
+      56: '0x1b30e60130b364DDfC0267525d7D8039d795FB33', // BRRL-BUSD LP (BUSD-BUSD will ignore)
     },
     tokenSymbol: 'BUSD',
     tokenAddresses: {
