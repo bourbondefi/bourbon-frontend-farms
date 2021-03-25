@@ -67,6 +67,55 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
+  {
+    pid: 4,
+    risk: 2,
+    lpSymbol: 'BTCB-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x7561eee90e24f3b348e1087a005f78b4c8453524',
+    },
+    tokenSymbol: 'BTCB',
+    tokenAddresses: {
+      97: '',
+      56: '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 5,
+    risk: 4,
+    lpSymbol: 'CAKE-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0xa527a61703d82139f8a06bc30097cc9caa2df5a6',
+    },
+    tokenSymbol: 'CAKE',
+    tokenAddresses: {
+      97: '',
+      56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 6,
+    risk: 1,
+    isTokenOnly: true,
+    lpSymbol: 'BUSD',
+    lpAddresses: {
+      97: '',
+      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // BRRL-BUSD LP (BUSD-BUSD will ignore)
+    },
+    tokenSymbol: 'BUSD',
+    tokenAddresses: {
+      97: '',
+      56: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
 ]
 
 export default farms
