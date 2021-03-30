@@ -4,9 +4,8 @@ import { FarmConfig, QuoteToken } from './types'
 const farms: FarmConfig[] = [
   {
     pid: 0,
-    isTokenOnly: true,
     risk: 5,
-    lpSymbol: 'BRRL',
+    lpSymbol: 'BRRL-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0x1b30e60130b364DDfC0267525d7D8039d795FB33',
@@ -22,7 +21,8 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'BRRL-BUSD LP',
+    isTokenOnly: true,
+    lpSymbol: 'BRRL',
     lpAddresses: {
       97: '',
       56: '0x1b30e60130b364DDfC0267525d7D8039d795FB33',
