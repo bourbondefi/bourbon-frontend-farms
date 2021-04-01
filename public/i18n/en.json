@@ -393,31 +393,31 @@
     {
       "data": {
         "stringId": 440,
-        "text": "Latest Winning Numbers"
+        "text": "Latest Winning Horses"
       }
     },
     {
       "data": {
         "stringId": 442,
-        "text": "Tickets matching 4 numbers:"
+        "text": "Tickets matching 4 horses:"
       }
     },
     {
       "data": {
         "stringId": 444,
-        "text": "Tickets matching 3 numbers:"
+        "text": "Tickets matching 3 horses:"
       }
     },
     {
       "data": {
         "stringId": 446,
-        "text": "Tickets matching 2 numbers:"
+        "text": "Tickets matching 2 horses:"
       }
     },
     {
       "data": {
         "stringId": 448,
-        "text": "Export recent winning numbers"
+        "text": "Export recent winning horses"
       }
     },
     {

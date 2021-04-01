@@ -66,35 +66,35 @@ const WinningNumbers: React.FC = () => {
               </RabbitBoxSmall>
               <RabbitBoxSmall>
                 <CardImage style={{ marginLeft: '-1.2em' }}>
-                  <Image src="/images/sign bunny 2@2x.png" alt="Number 2" width={200} height={150} responsive />
+                  <Image src="/images/sign bunny 2@2x.png" alt="Numbers 2" width={200} height={150} responsive />
                 </CardImage>
               </RabbitBoxSmall>
               <RabbitBoxSmall>
                 <CardImage style={{ marginLeft: '-1.2em' }}>
-                  <Image src="/images/sign bunny 3@2x.png" alt="Number 3" width={200} height={150} responsive />
+                  <Image src="/images/sign bunny 3@2x.png" alt="Numbers 3" width={200} height={150} responsive />
                 </CardImage>
               </RabbitBoxSmall>
               <RabbitBoxSmall>
                 <CardImage style={{ marginLeft: '-1.2em' }}>
-                  <Image src="/images/sign bunny 4@2x.png" alt="Number 4" width={200} height={150} responsive />
+                  <Image src="/images/sign bunny 4@2x.png" alt="Numbers 4" width={200} height={150} responsive />
                 </CardImage>
               </RabbitBoxSmall>
             </RabbitRowSmall>
             <Column>
               <RowNoPadding>
-                <CenteredTextWithPadding>{TranslateString(442, 'Tickets matching 4 numbers:')}</CenteredTextWithPadding>
+                <CenteredTextWithPadding>{TranslateString(442, 'Tickets matching 4 horses:')}</CenteredTextWithPadding>
                 <CenteredTextWithPadding>
                   <strong>{MatchedNumber4}</strong>
                 </CenteredTextWithPadding>
               </RowNoPadding>
               <RowNoPadding>
-                <CenteredTextWithPadding>{TranslateString(444, 'Tickets matching 3 numbers:')}</CenteredTextWithPadding>
+                <CenteredTextWithPadding>{TranslateString(444, 'Tickets matching 3 horses:')}</CenteredTextWithPadding>
                 <CenteredTextWithPadding>
                   <strong>{MatchedNumber3}</strong>
                 </CenteredTextWithPadding>
               </RowNoPadding>
               <RowNoPadding>
-                <CenteredTextWithPadding>{TranslateString(446, 'Tickets matching 2 numbers:')}</CenteredTextWithPadding>
+                <CenteredTextWithPadding>{TranslateString(446, 'Tickets matching 2 horses:')}</CenteredTextWithPadding>
                 <CenteredTextWithPadding>
                   <strong>{MatchedNumber2}</strong>
                 </CenteredTextWithPadding>
