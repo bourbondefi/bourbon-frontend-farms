@@ -85,10 +85,10 @@ const config: MenuEntry[] = [
         label: 'Github',
         href: 'https://github.com/bourbondefi/',
       },
-     // {
-     //   label: 'Docs',
-     //   href: '',
-     // },
+      {
+        label: 'Docs',
+        href: 'https://bourbondefi.medium.com/',
+      },
      // {
      //   label: 'Blog',
      //   href: '',
