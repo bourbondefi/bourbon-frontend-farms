@@ -87,7 +87,7 @@ const config: MenuEntry[] = [
       },
      {
         label: 'Contract',
-        href: 'https://bscscan.com/token/0x1Aca521795CAc924f78145Fe99B1E7735b690864#readContract',
+        href: 'https://bscscan.com/token/0x7595bb34Bf391C3de0a6878A36D06223b2BFd404#readContract',
       },
     //  {
     //    label: 'CoinMarketCap',
