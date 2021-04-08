@@ -56,17 +56,17 @@ const config: MenuEntry[] = [
   //   href: '/nft',
   // },
   {
-    label: 'Info',
+    label: 'Bourbon Barrel Token',
     icon: 'InfoIcon',
     items: [
       {
         label: 'PancakeSwap',
         href: 'https://pancakeswap.info/token/0x1b30e60130b364DDfC0267525d7D8039d795FB33',
       },
-    //  {
-    //    label: 'CoinGecko',
-    //    href: '',
-    //  },
+      {
+        label: 'Contract',
+        href: 'https://bscscan.com/token/0xcbe73dd7E8FC74011136b837a59205801c45e6A1#readContract',
+      },
     //  {
     //    label: 'CoinMarketCap',
     //    href: '',
@@ -74,6 +74,28 @@ const config: MenuEntry[] = [
       {
         label: 'AstroTools',
         href: 'https://app.astrotools.io/pancake-pair-explorer/0x1b30e60130b364DDfC0267525d7D8039d795FB33',
+      },
+    ],
+  },
+  {
+    label: 'Rare Bourbon Token',
+    icon: 'InfoIcon',
+    items: [
+      {
+        label: 'PancakeSwap',
+        href: 'https://pancakeswap.info/token/0x6392aC63A851497Fc1F86946923a365162518E30',
+      },
+     {
+        label: 'Contract',
+        href: 'https://bscscan.com/token/0x7595bb34Bf391C3de0a6878A36D06223b2BFd404#readContract',
+      },
+    //  {
+    //    label: 'CoinMarketCap',
+    //    href: '',
+    //  },
+      {
+        label: 'AstroTools',
+        href: 'https://app.astrotools.io/pancake-pair-explorer/0x6392aC63A851497Fc1F86946923a365162518E30',
       },
     ],
   },
