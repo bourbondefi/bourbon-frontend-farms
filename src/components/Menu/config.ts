@@ -121,7 +121,7 @@ const config: MenuEntry[] = [
   {
     label: 'Audit by Techrate',
     icon: 'AuditIcon',
-    href: 'https://www.bourbondefi.com/files/hackenAudit.pdf',
+    href: 'https://www.bourbondefi.com/files/TechrateAudit.pdf',
   },
  // {
  //   label: 'Audit by CertiK',
