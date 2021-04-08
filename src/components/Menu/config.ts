@@ -107,10 +107,10 @@ const config: MenuEntry[] = [
         label: 'Docs',
         href: 'https://bourbondefi.medium.com/',
       },
-     // {
-     //   label: 'Blog',
-     //   href: '',
-     // },
+      {
+        label: 'Roadmap',
+        href: 'https://app.gitbook.com/@bourbondefi/s/bourbon-finance/',
+      },
     ],
   },
  // {
