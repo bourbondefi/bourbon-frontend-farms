@@ -25,7 +25,7 @@ const Menu = (props) => {
       setLang={setSelectedLanguage}
       cakePriceUsd={cakePriceUsd.toNumber()}
       links={config}
-      priceLink="https://pancakeswap.info/token/0xcbe73dd7E8FC74011136b837a59205801c45e6A1"
+      priceLink="https://dex.guru/token/0xcbe73dd7e8fc74011136b837a59205801c45e6a1-bsc"
       {...props}
     />
   )
