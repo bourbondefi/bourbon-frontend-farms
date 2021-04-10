@@ -62,7 +62,8 @@ const Home: React.FC = () => {
         <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(576, 'Bourbon Finance')}
         </Heading>
-        <Text>{TranslateString(578, 'A DEFI app on Binance Smart Chain.')}</Text>
+        <Text>{TranslateString(578, 'Bottled on Binance Smart Chain.')}</Text>
+        <a href='https://www.amazon.com/s?rh=n%3A7141123011%2Cp_4%3ABourbon+DeFi&ref=bl_sl_s_ap_web_7141123011'>Official Bourbon DeFi Merch Click Here!</a>
       </Hero>
       <div>
         <Cards>
