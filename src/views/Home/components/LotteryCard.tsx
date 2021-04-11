@@ -69,7 +69,7 @@ const FarmedStakingCard = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(550, 'Your Bourbon Derby Winnings')}
         </Heading>
-        <CardImage src="" alt="cake logo" width={64} height={64} />
+        <CardImage src="/images/brrl/2.png" alt="brrl logo" width={64} height={64} />
         <Block>
           <CakeWinnings />
           <Label>{TranslateString(552, 'Bourbon Barrel to Collect')}</Label>
