@@ -8,6 +8,7 @@ import { useTotalRewards } from 'hooks/useTickets'
 import PastLotteryDataContext from 'contexts/PastLotteryDataContext'
 import ExpandableSectionButton from 'components/ExpandableSectionButton/ExpandableSectionButton'
 import PrizeGrid from '../PrizeGrid'
+import { usePriceCakeBusd } from '../../../../state/hooks'
 
 const CardHeading = styled.div`
   position: relative;
@@ -34,7 +35,10 @@ const IconWrapper = styled.div`
     height: 48px;
   }
 `
-
+const Label = styled.div`
+  color: ${({ theme }) => theme.colors.textSubtle};
+  font-size: 14px;
+`
 const PrizeCountWrapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -55,6 +59,7 @@ const TotalPrizesCard = () => {
   const lotteryPrizeAmount = +getBalanceNumber(useTotalRewards()).toFixed(0)
   const lotteryPrizeWithCommaSeparators = lotteryPrizeAmount.toLocaleString()
   const { currentLotteryNumber } = useContext(PastLotteryDataContext)
+  const brrlPrice = usePriceCakeBusd().toNumber()
 
   return (
     <Card>
@@ -79,6 +84,7 @@ const TotalPrizesCard = () => {
                 {TranslateString(999, 'Total Pot:')}
               </Text>
               <Heading size="lg">{lotteryPrizeWithCommaSeparators} Bourbon Barrel</Heading>
+              <Label>~${(brrlPrice * lotteryPrizeAmount).toFixed(2)}</Label>
             </PrizeCountWrapper>
           </Left>
           <Right>

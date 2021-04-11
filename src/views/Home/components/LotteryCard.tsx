@@ -7,10 +7,11 @@ import useI18n from 'hooks/useI18n'
 import useGetLotteryHasDrawn from 'hooks/useGetLotteryHasDrawn'
 import useTokenBalance from 'hooks/useTokenBalance'
 import { useMultiClaimLottery } from 'hooks/useBuyLottery'
-import { useTotalClaim } from 'hooks/useTickets'
+import { useTotalClaim, useTotalRewards } from 'hooks/useTickets'
 import BuyModal from 'views/Lottery/components/TicketCard/BuyTicketModal'
 import CakeWinnings from './CakeWinnings'
 import LotteryJackpot from './LotteryJackpot'
+import { usePriceCakeBusd } from '../../../state/hooks'
 
 const StyledLotteryCard = styled(Card)`
   background-image: url('');
@@ -42,11 +43,13 @@ const Actions = styled.div`
 
 const FarmedStakingCard = () => {
   const lotteryHasDrawn = useGetLotteryHasDrawn()
+  const lotteryPrizeAmount = +getBalanceNumber(useTotalRewards()).toFixed(0)
   const [requesteClaim, setRequestedClaim] = useState(false)
   const TranslateString = useI18n()
   const { claimAmount } = useTotalClaim()
   const { onMultiClaim } = useMultiClaimLottery()
   const cakeBalance = useTokenBalance(getCakeAddress())
+  const brrlPrice = usePriceCakeBusd().toNumber()
 
   const handleClaim = useCallback(async () => {
     try {
@@ -76,7 +79,9 @@ const FarmedStakingCard = () => {
         </Block>
         <Block>
           <LotteryJackpot />
+          <Label>~${(brrlPrice * lotteryPrizeAmount).toFixed(2)}</Label>
           <Label>{TranslateString(554, 'Total jackpot this round')}</Label>
+          
         </Block>
         <Actions>
           <Button
