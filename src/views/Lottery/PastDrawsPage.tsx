@@ -43,7 +43,7 @@ const PastDrawsPage: React.FC = () => {
       <SecondCardColumnWrapper>
         <PastDrawsHistoryCard />
         <BunnyImageWrapper>
-          <img src="/images/pancake-lottery-bunny.png" alt="lottery bunny" />
+          <img src="/images/horserace.png" alt="Horse Race" />
         </BunnyImageWrapper>
       </SecondCardColumnWrapper>
     </Cards>

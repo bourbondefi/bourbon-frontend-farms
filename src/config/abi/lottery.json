@@ -192,7 +192,7 @@
   },
   {
     "inputs": [],
-    "name": "cake",
+    "name": "brrl",
     "outputs": [
       {
         "internalType": "contract IERC20",
@@ -485,7 +485,7 @@
     "inputs": [
       {
         "internalType": "contract IERC20",
-        "name": "_cake",
+        "name": "_brrl",
         "type": "address"
       },
       {

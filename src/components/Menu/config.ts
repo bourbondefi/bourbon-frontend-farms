@@ -46,11 +46,11 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: 'https://farms.bourbondefi.com/nests'
   },
-  // {
-  //   label: 'Lottery',
-  //   icon: 'TicketIcon',
-  //   href: 'https://www.bourbondefi.com/lottery'
-  // },
+   {
+     label: 'Bourbon Derby',
+     icon: 'TicketIcon',
+     href: 'https://www.bourbondefi.com/lottery'
+   },
   {
     label: 'Bourbon Barrel Token',
     icon: 'InfoIcon',

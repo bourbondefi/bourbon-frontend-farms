@@ -10,11 +10,11 @@ const WarningModal: React.FC<{ onDismiss?: () => void }> = ({ onDismiss }) => {
   return (
     <Modal title={TranslateString(466, 'Warning')} onDismiss={onDismiss}>
       <TicketsList>
-        {TranslateString(468, 'Lottery ticket purchases are final.')}
+        {TranslateString(468, 'Bourbon Derby Ticket purchases are final.')}
         <br />
-        {TranslateString(470, 'Your CAKE will not be returned to you after you spend it to buy tickets.')}
+        {TranslateString(470, 'Your Bourbon Barrel will not be returned to you after you spend it to buy tickets.')}
         <br />
-        {TranslateString(472, 'Tickets are only valid for one lottery draw, and will be burnedafter the draw.')}
+        {TranslateString(472, 'Tickets are only valid for one lottery draw, and will be burned after the draw.')}
         <br />
         {TranslateString(
           474,

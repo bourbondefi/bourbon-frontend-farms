@@ -495,7 +495,7 @@
     {
       "data": {
         "stringId": 478,
-        "text": "Ticket purchases are final. Your BRRL cannot be returned to you after buying tickets."
+        "text": "Ticket purchases are final. Your Bourbon Barrel cannot be returned to you after buying tickets."
       }
     },
     {
@@ -741,7 +741,7 @@
     {
       "data": {
         "stringId": 570,
-        "text": "Winning Numbers This Round"
+        "text": "Winning Horses This Round"
       }
     },
     {
@@ -1161,7 +1161,7 @@
     {
       "data": {
         "stringId": 712,
-        "text": "Win if 2, 3 or 4 of your ticket numbers match!"
+        "text": "Win if 2, 3 or 4 of your horses match!"
       }
     },
     {

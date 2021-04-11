@@ -23,8 +23,8 @@ const WinningNumbers: React.FC = () => {
             <StyledCardHeader>
               <Title>
                 {account && lotteryHasDrawn
-                  ? `🥳${TranslateString(570, 'Winning Numbers This Round')}🥳`
-                  : TranslateString(572, 'Latest Winning Numbers')}
+                  ? `${TranslateString(570, 'Winning Horses This Round')}`
+                  : TranslateString(572, 'Latest Winning Horses')}
               </Title>
               <br />
             </StyledCardHeader>
@@ -100,9 +100,7 @@ const WinningNumbers: React.FC = () => {
                 </CenteredTextWithPadding>
               </RowNoPadding>
             </Column>
-            <Link href="https://api.bourbondefi.com/lottery?page=0&pageSize=25" target="_blank">
-              {TranslateString(448, 'Export recent winning numbers')}
-            </Link>
+            
           </StyledCardContentInner>
         </CardBody>
       </Card>
