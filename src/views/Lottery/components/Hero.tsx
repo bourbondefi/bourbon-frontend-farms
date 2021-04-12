@@ -75,7 +75,7 @@ const Hero = () => {
           <Blurb>{TranslateString(999, 'Win if 2, 3, or 4 of your horses match!')}</Blurb>
         </LeftWrapper>
         <RightWrapper>
-          <LotteryProgress />
+          <text>Next Bourbon Derby Will Run on: April 16, 2021 at 7PM EST</text>
         </RightWrapper>
       </StyledContainer>
     </StyledHero>
