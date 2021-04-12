@@ -104,7 +104,7 @@ const config: MenuEntry[] = [
         href: 'https://github.com/bourbondefi/',
       },
       {
-        label: 'Docs',
+        label: 'Blog',
         href: 'https://bourbondefi.medium.com/',
       },
       {
