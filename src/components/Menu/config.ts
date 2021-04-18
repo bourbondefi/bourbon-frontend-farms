@@ -72,6 +72,11 @@ const config: MenuEntry[] = [
      icon: 'TicketIcon',
      href: 'https://www.bourbondefi.com/lottery'
    },
+   {
+    label: 'The Bar',
+    icon: 'IfoIcon',
+    href: 'https://www.bourbondefi.com/pools',
+  },
   {
     label: 'Bourbon Barrel Token',
     icon: 'InfoIcon',

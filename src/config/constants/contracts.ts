@@ -67,4 +67,8 @@ export default {
     56: '0xFee8A195570a18461146F401d6033f5ab3380849',
     97: '0x7b7b1583De1DeB32Ce6605F6deEbF24A0671c17C',
   },
+  brrl: {
+    56: '0xcbe73dd7E8FC74011136b837a59205801c45e6A1',
+    97: '',
+  },
 }
