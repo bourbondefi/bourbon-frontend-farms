@@ -13,7 +13,7 @@ const pools: PoolConfig[] = [
      poolCategory: PoolCategory.CORE,
      projectLink: 'https://www.bourbondefi.com/',
      harvest: true,
-     tokenPerBlock: '0.0001',
+     tokenPerBlock: '0.001',
      sortOrder: 1,
      isFinished: false,
      tokenDecimals: 18,
