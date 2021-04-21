@@ -43,3 +43,9 @@ export const getPointCenterIfoAddress = () => {
 export const getBunnySpecialAddress = () => {
   return getAddress(addresses.bunnySpecial)
 }
+export const getAurumAddress = () => {
+  return getAddress(addresses.rbt)
+}
+export const getAurumMasterChefAddress = () => {
+  return getAddress(addresses.RBTmasterChef)
+}

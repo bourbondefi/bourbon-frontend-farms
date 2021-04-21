@@ -71,4 +71,20 @@ export default {
     56: '0xcbe73dd7E8FC74011136b837a59205801c45e6A1',
     97: '',
   },
+  rbt: {
+    56: '0x7595bb34Bf391C3de0a6878A36D06223b2BFd404',
+    97: '',
+  },
+  tsb: {
+    56: '0xcbe73dd7E8FC74011136b837a59205801c45e6A1',
+    97: '',
+  },
+  RBTmasterChef: {
+    56: '0x1Aca521795CAc924f78145Fe99B1E7735b690864',
+    97: '',
+  },
+  TSBmasterChef: {
+    56: '0x624d14609fB85aA8CBF5A6D16Ab4fd8149bF0798',
+    97: '',
+  },
 }

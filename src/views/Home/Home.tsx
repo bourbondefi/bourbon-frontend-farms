@@ -6,6 +6,7 @@ import Page from 'components/layout/Page'
 import FarmStakingCard from './components/FarmStakingCard'
 import LotteryCard from './components/LotteryCard'
 import CakeStats from './components/CakeStats'
+import AurumStats from './components/AurumStats'
 import TotalValueLockedCard from './components/TotalValueLockedCard'
 import TwitterCard from './components/TwitterCard'
 
@@ -71,6 +72,7 @@ const Home: React.FC = () => {
           <LotteryCard />
           <FarmStakingCard />
             <CakeStats />
+            <AurumStats />
           <TotalValueLockedCard />
         </Cards>
       </div>
