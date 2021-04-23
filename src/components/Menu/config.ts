@@ -2,19 +2,28 @@ import { MenuEntry } from '@pancakeswap-libs/uikit'
 
 const config: MenuEntry[] = [
   {
+    label: 'Aztec Swap',
+    icon: 'HomeIcon',
+    href: 'https://www.aztecswap.com/'
+  },
+  {
     label: 'Bourbon Stats',
     icon: 'HomeIcon',
-    href: 'https://www.bourbondefi.com/'
-  },
-  {
-    label: 'Rare Bourbon Stats',
-    icon: 'HomeIcon',
-    href: 'https://farms.bourbondefi.com/'
-  },
-  {
-    label: 'Top Shelf Stats',
-    icon: 'HomeIcon',
-    href: 'https://topshelf.bourbondefi.com/'
+    initialOpenState: false,
+    items: [
+      {
+        label: 'Bourbon Barrel Stats',
+        href: 'https://www.bourbondefi.com/'
+      },
+      {
+        label: 'Rare Bourbon Stats',
+        href: 'https://farms.bourbondefi.com/'
+      },
+      {
+        label: 'Top Shelf Stats',
+        href: 'https://topshelf.bourbondefi.com/'
+      },
+    ]
   },
   {
     label: 'Trade',
