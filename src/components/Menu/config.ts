@@ -13,7 +13,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Bourbon Barrel Stats',
-        href: 'https://www.bourbondefi.com/'
+        href: 'https://www.v1bourbondefi.com/'
       },
       {
         label: 'Rare Bourbon Stats',
@@ -32,11 +32,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.bourbondefi.com/#/swap'
+        href: 'https://v1exchange.bourbondefi.com/#/swap'
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.bourbondefi.com/#/pool'
+        href: 'https://v1exchange.bourbondefi.com/#/pool'
       }
     ]
   },
@@ -46,7 +46,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Bourbon Barrel Farms',
-        href: 'https://www.bourbondefi.com/farms'
+        href: 'https://www.v1bourbondefi.com/farms'
       },
       {
         label: 'Rare Bourbon Farms',
@@ -64,7 +64,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Bourbon Barrel Distillery',
-        href: 'https://www.bourbondefi.com/nests'
+        href: 'https://www.v1bourbondefi.com/nests'
       },
       {
         label: 'Rare Bourbon Distillery',
@@ -79,12 +79,12 @@ const config: MenuEntry[] = [
    {
      label: 'Bourbon Derby',
      icon: 'TicketIcon',
-     href: 'https://www.bourbondefi.com/lottery'
+     href: 'https://www.v1bourbondefi.com/lottery'
    },
    {
     label: 'The Bar',
     icon: 'IfoIcon',
-    href: 'https://www.bourbondefi.com/pools',
+    href: 'https://www.v1bourbondefi.com/pools',
   },
   {
     label: 'Bourbon Barrel Token',
@@ -153,7 +153,7 @@ const config: MenuEntry[] = [
   {
     label: 'Audit by Techrate',
     icon: 'AuditIcon',
-    href: 'https://www.bourbondefi.com/files/TechrateAudit.pdf',
+    href: 'https://www.v1bourbondefi.com/files/TechrateAudit.pdf',
   },
 ]
 
