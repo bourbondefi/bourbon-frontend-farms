@@ -32,11 +32,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://v1exchange.bourbondefi.com/#/swap'
+        href: 'https://exchange.bourbondefi.com/#/swap'
       },
       {
         label: 'Liquidity',
-        href: 'https://v1exchange.bourbondefi.com/#/pool'
+        href: 'https://exchange.bourbondefi.com/#/pool'
       }
     ]
   },
