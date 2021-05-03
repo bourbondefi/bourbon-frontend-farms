@@ -13,7 +13,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Bourbon Barrel Stats',
-        href: 'https://www.v1bourbondefi.com/'
+        href: 'https://v1.bourbondefi.com/'
       },
       {
         label: 'Rare Bourbon Stats',
@@ -46,7 +46,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Bourbon Barrel Farms',
-        href: 'https://www.v1bourbondefi.com/farms'
+        href: 'https://v1.bourbondefi.com/farms'
       },
       {
         label: 'Rare Bourbon Farms',
@@ -64,7 +64,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Bourbon Barrel Distillery',
-        href: 'https://www.v1bourbondefi.com/nests'
+        href: 'https://v1.bourbondefi.com/nests'
       },
       {
         label: 'Rare Bourbon Distillery',
@@ -79,12 +79,12 @@ const config: MenuEntry[] = [
    {
      label: 'Bourbon Derby',
      icon: 'TicketIcon',
-     href: 'https://www.v1bourbondefi.com/lottery'
+     href: 'https://v1.bourbondefi.com/lottery'
    },
    {
     label: 'The Bar',
     icon: 'IfoIcon',
-    href: 'https://www.v1bourbondefi.com/pools',
+    href: 'https://v1.bourbondefi.com/pools',
   },
   {
     label: 'Bourbon Barrel Token',
@@ -153,7 +153,7 @@ const config: MenuEntry[] = [
   {
     label: 'Audit by Techrate',
     icon: 'AuditIcon',
-    href: 'https://www.v1bourbondefi.com/files/TechrateAudit.pdf',
+    href: 'https://v1.bourbondefi.com/files/TechrateAudit.pdf',
   },
 ]
 
